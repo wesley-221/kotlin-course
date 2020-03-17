@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">task 2</string>
+    <string name="instructions_select_rock_paper_or_scissors_to_play">Instructions: select rock, paper or scissors to play.</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_all_time_statistics">Your all time statistics</string>
+    <string name="win_draw_lose_string">Win: %s Draw: %s Lose: %s</string>
+    <string name="win_message">You %s</string>
+    <string name="tie_message">It\'s a tie!</string>
+    <string name="title_activity_main_replace">activity_main_replace</string>
+    <string name="title_activity_history">activity_history</string>
+</resources>

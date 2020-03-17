@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">level1-task2</string>
+    <string name="header_text">Conunction (AND)</string>
+    <string name="T">T</string>
+    <string name="F">F</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="AB">A ^ B</string>
+
+    <string name="toast_message">The correct number of answers is: %d</string>
+</resources>

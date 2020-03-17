@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">task-1</string>
+    <string name="name">%1$s %2$s</string>
+</resources>
