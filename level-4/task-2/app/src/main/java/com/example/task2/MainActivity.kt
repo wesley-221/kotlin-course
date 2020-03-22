@@ -2,7 +2,6 @@ package com.example.task2
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -132,7 +131,7 @@ class MainActivity : AppCompatActivity() {
             val loses = games.stream().filter { g -> g.gameStatus == LOSE_STATE }.count().toString()
             val tie = games.stream().filter { g -> g.gameStatus == TIE_STATE }.count().toString()
 
-            tvStatistics.text = getString(R.string.win_draw_lose_string, wins, loses, tie)
+            tvStatistics.text = getString(R.string.win_draw_lose_string, wins, tie, loses)
         }
     }
 
